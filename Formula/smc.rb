@@ -1,12 +1,12 @@
 class Smc < Formula
   desc "SMC CLI"
   homepage "https://github.com/tawerna/smc.cli"
-  version "1.0.1"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tawerna/smc.cli/releases/download/v1.0.1/smc-v1.0.1-darwin-arm64.tar.gz"
-      sha256 "b3cadd0ec503b30275bd3932f735596a0ec2a166d7e786b8d9dac7c5461e7028"
+      url "https://github.com/tawerna/smc.cli/releases/download/v1.1.0/smc-v1.1.0-darwin-arm64.tar.gz"
+      sha256 "6e2581fcc97c801588105be46ef8990710e96e629f2409e16ec988146818daff"
 
       def install
         bin.install "smc"
