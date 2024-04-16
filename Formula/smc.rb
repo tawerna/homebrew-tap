@@ -1,7 +1,7 @@
 class Smc < Formula
   desc "SMC CLI"
   homepage "https://github.com/tawerna/smc.cli"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
